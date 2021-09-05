@@ -1,0 +1,25 @@
+:root{
+    --violet-color:#ba71da;
+    --blue-color:#14b9d5;
+    --red-color:#f76570;
+    --yellow-color:#ffd205;
+    --green-color:#1bbc9b;
+}
+
+.sub-nav__link::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+}

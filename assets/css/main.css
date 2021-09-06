@@ -1,0 +1,34 @@
+.app{
+    position: relative;
+}
+
+.header{
+    height: 104px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 65px;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 5;
+}
+
+.header__logo{
+    padding-right: 62px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.header__logo-icon{
+    width: 160px;
+}
+
+.header-left{
+    display: flex;
+    flex: 1;
+}

@@ -121,3 +121,45 @@
         opacity: 1;
     }
 }
+
+.sub-nav__sub{
+    font-size: 1rem;
+    padding: 0 4px;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    float: right;
+}
+
+.sub-nav__sub--red{
+    background-color: var(--red-color);
+}
+
+.sub-nav__sub--green{
+    background-color: var(--green-color);
+}
+
+.sub-nav__sub--blue{
+    background-color: var(--blue-color);
+}
+
+.sub-nav-children::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 150px;
+    position: absolute;
+    top: 0%;
+    left: -20px;
+}
+
+.sub-nav__link:hover{
+    background-color: #f9f9f9;
+}
+
+.sub-nav__link-icon{
+    float: right;
+    font-size: 1.3rem;
+    padding-top: 3px;
+}

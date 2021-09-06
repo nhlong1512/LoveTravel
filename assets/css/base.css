@@ -23,3 +23,25 @@ html{
     line-height: 1.6rem;
     scroll-behavior: smooth;
 }
+
+.grid {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 30px;
+}
+.grid__colum{
+    width: 33.33333%;
+    padding: 0 15px;
+}

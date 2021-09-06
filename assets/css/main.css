@@ -32,3 +32,92 @@
     display: flex;
     flex: 1;
 }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.navbar__list{
+    list-style: none;
+    padding: 20px 30px;
+    margin-bottom: -4px;
+    position: relative;
+}
+
+.sub-nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    min-width: 192px;
+    box-shadow: 0 0 5px #9fa1a6;
+    display: none;
+    animation: showNavSub ease 0.3s;
+    transform-origin: 30% top ;
+    padding-left: 0;
+}
+
+.navbar__list:hover .sub-nav{
+    display: block;
+}
+
+.sub-nav__list{
+    list-style: none;
+}
+
+.header__list-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.sub-nav__link{
+    background-color: transparent;
+    text-decoration: none;
+    color: #a0a2a4;
+    font-size: 1.4rem;
+    padding: 14px 28px;
+    display: block;
+    border-bottom: 1px solid #f1f1f1;
+    letter-spacing: 0.2rem;
+}
+
+.sub-nav__list-has-children{
+    position: relative;
+}
+
+.sub-nav-children{
+    position: absolute;
+}
+
+.sub-nav-children {
+    position: absolute;
+    left: 105%;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px #9fa1a6;
+    min-width: 192px;
+    padding-left: 0;
+    display: none;
+    animation: showNavSub ease 0.3s;
+    transform-origin: 10% left;
+}
+
+.sub-nav__list:hover .sub-nav-children{
+    display: block;
+}
+
+@keyframes showNavSub{
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}

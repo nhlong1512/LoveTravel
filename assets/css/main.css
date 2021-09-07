@@ -292,6 +292,10 @@
     color: #a3a3a3;
 }
 
+.slider-face__search-left:hover{
+    cursor: pointer;
+}
+
 .slider-face__search-link{
     margin-bottom: -7px;
 }
@@ -310,6 +314,10 @@
     align-items: center;
     flex-direction: column;
     margin: 0 15px;
+}
+
+.slider-face__item:hover{
+    cursor: pointer;
 }
 
 .slider-face__list{

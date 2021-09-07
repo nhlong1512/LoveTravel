@@ -516,6 +516,72 @@
     cursor: pointer;
 }
 
+.content-slider-top{
+    background: url(../imgs/parallax-search-2.jpg) center;
+    background-repeat: no-repeat;
+    margin-top: 76px;
+    background-size: cover;
+}
+
+.content-slider-top-contains{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.content-slider-top-contains-left{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+
+.content-slider-top-contains-heading-top{
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    display: block;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.content-slider-top-contains-heading-bottom{
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    display: block;
+}
+
+.content-slider-top-contains-heading-bottom-2{
+    position: relative;
+    z-index: 2;
+}
+
+.content-slider-top-contains-heading-bottom-2-in::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--red-color);
+    bottom: 11px;
+    right: 0;
+    z-index: -1;
+}
+
+.content-slider-top-contains-right-link{
+    text-decoration: none;
+    color: var(--red-color);
+    font-size: 1.4rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+
 
 
 /* End Container */

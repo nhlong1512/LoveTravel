@@ -170,6 +170,10 @@
     font-size: 3rem;
 }
 
+.header-right__link:hover{
+    cursor: pointer;
+}
+
 .navbar__list--violet{
     background-color: var(--violet-color);
     padding: 10px 16px;
@@ -506,6 +510,10 @@
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     margin-top: 15px;
+}
+
+.content-top__oder-place-heading-link-block:hover{
+    cursor: pointer;
 }
 
 

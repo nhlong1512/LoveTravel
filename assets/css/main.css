@@ -348,6 +348,7 @@
 
 /* Container */
 
+/* Content Top OUR DESTINATIONS */
 .content-top__header{
     text-align: center;
     text-transform: uppercase;
@@ -516,6 +517,10 @@
     cursor: pointer;
 }
 
+/* End Content Top OUR DESTINATIONS */
+
+/* Your Next Holiday */
+
 .content-slider-top{
     background: url(../imgs/parallax-search-2.jpg) center;
     background-repeat: no-repeat;
@@ -581,8 +586,13 @@
     letter-spacing: 0.2rem;
 }
 
+/* End Your Next Holiday */
 
-
+/* The Best Beaches */
+.content-between{
+    margin-bottom: 1500px;
+}
+/* End The Best Beaches */
 
 /* End Container */
 

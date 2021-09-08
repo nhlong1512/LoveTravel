@@ -596,7 +596,7 @@
     margin-top: 75px;
     margin-bottom: 1500px;
 }
-/*  */
+
 .content-between-contain-top-left{
     width: 350px;
 }
@@ -666,10 +666,10 @@
     content: "";
     position: absolute;
     display: block;
-    width: 100%;
+    width: 90%;
     height: 3px;
     background-color: #dadada;
-    right: 3.5px;
+    right: 7px;
     bottom: 20px;
 }
 
@@ -687,6 +687,7 @@
     color: #555555;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    font-weight: 400;
 }
 
 .content-coin-btn{
@@ -715,6 +716,7 @@
     display: block;
     
 }
+
 .content-between-contain-slider-view{
     height: 100%;
     width: 100%;
@@ -730,6 +732,7 @@
     margin-top: -18px;
     transition: 0.8s;
 }
+
 .slider-btns{
     width: 40%;
     height: 10px;
@@ -741,12 +744,14 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .slider-btn{
     width: 30%;
     height: 4px;
     border-radius: 25px;
     background-color: #8dbed8;
 }
+
 .slider-btn:hover{
     transition: 0.3s;
     background-color: #fff;
@@ -756,15 +761,19 @@
 #b1:checked ~ .content-between-contain-slider-imgs{
     margin-left: 0;
 }
+
 #b2:checked ~ .content-between-contain-slider-imgs{
     margin-left: -100%;
 }
+
 #b3:checked ~ .content-between-contain-slider-imgs{
     margin-left: -200%;
 }
+
 .content-between-contain-top-left__heading-in{
  position: relative;
 }
+
 .content-between-line-down::after{
     content: "";
     position: absolute;
@@ -775,7 +784,6 @@
     bottom: 11px;
     right: 0px;
     z-index: -1;
-
 }
 
 /* End The Best Beaches */

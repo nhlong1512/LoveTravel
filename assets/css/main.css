@@ -589,9 +589,195 @@
 /* End Your Next Holiday */
 
 /* The Best Beaches */
-.content-between{
+
+.content-between-contain-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
     margin-bottom: 1500px;
 }
+
+.content-between-contain-top-left{
+    width: 350px;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-between-contain-top-left__name{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #9a9a9a;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.content-between-contain-top-left__heading{
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: 700;
+    color: #555555;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.content-between-contain-top-left__heading-in{
+    position: relative;
+}
+
+.content-between-line-down::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--blue-color);
+    right: 0;
+    bottom: 11px;
+    z-index: -1;
+}
+
+.content-between-contain-top-left__content{
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-top: 20px;
+}
+
+.content-between-contain-top-left-coin{
+    margin-top: 30px;
+}
+
+.content-coin-origin{
+    position: relative;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: #dadada;
+    z-index: 1;
+}
+
+.content-coin-origin::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #dadada;
+    right: 3.5px;
+    bottom: 20px;
+}
+
+.content-coin-sale{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: #555555;
+    margin-left: 6px;
+}
+
+.content-coin-pantity{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #555555;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.content-coin-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 15px 35px;
+    letter-spacing: 0.2rem;
+    background-color: var(--green-color);
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.content-between-contain-slider {
+    position: relative;
+    width: 750px;
+    height: 430px;
+}
+
+.content-between-contain-slider-img1,
+.content-between-contain-slider-img2,
+.content-between-contain-slider-img3{
+    width: calc(100% / 3);
+    display: block;
+    
+}
+.content-between-contain-slider-view{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.content-between-contain-slider-imgs{
+    display: flex;
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    margin-top: -18px;
+    transition: 0.8s;
+}
+.slider-btns{
+    width: 40%;
+    height: 10px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.slider-btn{
+    width: 30%;
+    height: 4px;
+    border-radius: 25px;
+    background-color: #8dbed8;
+}
+.slider-btn:hover{
+    transition: 0.3s;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#b1:checked ~ .content-between-contain-slider-imgs{
+    margin-left: 0;
+}
+#b2:checked ~ .content-between-contain-slider-imgs{
+    margin-left: -100%;
+}
+#b3:checked ~ .content-between-contain-slider-imgs{
+    margin-left: -200%;
+}
+.content-between-contain-top-left__heading-in{
+ position: relative;
+}
+.content-between-line-down::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--blue-color);
+    bottom: 11px;
+    right: 0px;
+    z-index: -1;
+
+}
+
 /* End The Best Beaches */
 
 /* End Container */

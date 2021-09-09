@@ -786,6 +786,66 @@
     z-index: -1;
 }
 
+.content-between-contain-slider-date{
+    position: absolute;
+    background-color: var(--blue-color);
+    display: flex;
+    width: 66.66666%;
+    left: 16.666667%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    top: 100%;
+    transform: translateY(-50%);
+}
+
+.content-between-date-day{
+    position: relative;
+    width: 25%;
+}
+
+.content-between-date-day-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-between-date-time{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.content-between-date-time-bottom{
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.content-between-date-day-block::after{
+    content: "/";
+    display: block;
+    position: absolute;
+    right: 0px;
+    font-size: 5rem;
+    top: 46%;
+    transform: translateX(50%);
+    color: #000;
+    opacity: 0.05;
+}
+
+.content-between-date-day-block-no::after{
+    content: "";
+    display: none;
+}
+
+
 /* End The Best Beaches */
 
 /* End Container */

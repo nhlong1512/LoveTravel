@@ -946,73 +946,142 @@
 /* End Discover Cities */
 
 /* Content-top-header Our Packages */
-
-.content-bottom{
-
-}
-
 .content-bottom-img{
-
+    width: 100%;
+    display: block;
 }
 
 .content-bottom-content{
-
+    position: relative;
+    padding: 34px 30px;
+    border: 1px solid #f1f1f1;
 }
 
 .content-bottom-content-name-place{
-
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #555555;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .content-bottom-content-loaction{
+    font-size: 1.5rem;
+    color: #9a9a9a;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 20px;
+    display: block;
+}
 
+.content-bottom-content-location i{
+    font-size: 1.2rem;
 }
 
 .content-bottom-content-vote{
-
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
 }
 
 .content-bottom-content-vote-left{
-
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555555;
 }
 
 .content-bottom-content-voter-left-top{
-
-}
-
-.content-bottom-content-vote-left-bottom{
-
+    display: block;
+    margin-bottom: 4px;
 }
 
 .content-bottom-content-vote-more{
-
+    font-size: 1rem;
+    padding: 0 6px;
+    border-radius: 10px;
+    background-color: var(--yellow-color);
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 1.2rem;
+    position: relative; 
 }
 
 .content-bottom-content-vote-more-hover{
-
+    position: absolute;
+    top: 140%;
+    background-color: #555555;
+    left: 0;
+    padding: 4px 4px;
+    display: none;
+    z-index: 3;
 }
 
-.content-bottom-content-vote-right{
+.content-bottom-content-vote-more:hover .content-bottom-content-vote-more-hover{
+    display: block;
+}
 
+.content-bottom-content-vote-more-hover::after{
+    content: "";
+    border-width: 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent #555555 transparent;
+    position: absolute;
+    left: 5px;
+    top: -14px;
 }
 
 .content-bottom-content-vote-right-coin{
-
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #555555;
+    position: relative;
+    top: -5px;
+    letter-spacing: 0.1rem;
 }
 
 .content-bottom-content-place{
-
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    color: #9a9a9a;
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 0.1rem;
 }
 
 .content-bottom-content-link{
-
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: var(--yellow-color);
+    display: inline-block;
+    margin-top: 20px;
+    letter-spacing: 0.1rem;
+    border-radius: 20px;
 }
 
 .content-bottom-content-sub-img{
-
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(270deg ,rgb(255, 157, 5) ,#ffd106 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 30px;
 }
 
 .content-bottom-content-icon{
-
+    width: 2.6rem;
 }
 
 

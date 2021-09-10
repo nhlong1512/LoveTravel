@@ -46,3 +46,7 @@ html{
     width: 33.33333%;
     padding: 0 15px;
 }
+
+.red-color{
+    background-color: var(--red-color);
+}

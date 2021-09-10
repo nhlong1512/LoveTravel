@@ -594,7 +594,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 75px;
-    margin-bottom: 1500px;
 }
 
 .content-between-contain-top-left{
@@ -845,8 +844,108 @@
     display: none;
 }
 
+.content-between-bottom-block{
+    display: flex;
+    margin-top: 110px;
+}
+
+.content-between-bottom-img-icon{
+    width: 5rem;
+}
+
+.content-between-bottom-content{
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-between-bottom-content-heading{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: #555555;
+    font-weight: 700;
+    letter-spacing: 0.1rem; 
+}
+
+.content-between-bottom-content-body{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #9a9a9a;
+    margin: 20px 0;
+    letter-spacing: 0.1rem;
+}
+
+.content-between-bottom-content-more{
+    text-decoration: none;
+    color: var(--blue-color);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+}
 
 /* End The Best Beaches */
+
+/* Discover Cities */
+.content-slider-bottom-row{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 1500px;
+}
+
+.content-slider-bottom{
+    width: 50%;
+    background: url(../imgs/parallax-5-filter.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-slider-bottom:last-child{
+    background: url(../imgs/parallax-6-filter.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-slider-bottom-heading{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 64px;
+    letter-spacing: 0.2rem;
+}
+
+.content-slider-bottom-content{
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    color: #fff;
+    margin-top: 22px;
+    font-weight: 700;
+}
+
+.content-slider-bottom-link{
+    text-decoration: none;
+    color: #f3a46b;
+    padding: 15px 35px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    border-radius: 40px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+
+.content-slider-bottom:last-child .content-slider-bottom-link{
+    color: var(--green-color);
+}
+/* End Discover Cities */
+
 
 /* End Container */
 

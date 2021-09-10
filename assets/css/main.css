@@ -659,6 +659,7 @@
     font-weight: 400;
     color: #dadada;
     z-index: 1;
+    right: 2px;
 }
 
 .content-coin-origin::after{
@@ -1105,6 +1106,13 @@
     background: linear-gradient(90deg, #f86d77,#dd8463);
 }
 
+.content-bottom-content-vote-right-coin-goc{
+    display: inline-block;
+    margin: 0;
+    font-size: 2rem;
+    text-decoration: line-through;
+    color: #9a9a9a;
+}
 
 /* End Content-top-header Our Packages */
 

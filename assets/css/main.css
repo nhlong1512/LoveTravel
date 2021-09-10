@@ -889,7 +889,6 @@
 .content-slider-bottom-row{
     display: flex;
     margin-top: 80px;
-    margin-bottom: 1500px;
 }
 
 .content-slider-bottom{
@@ -945,6 +944,80 @@
     color: var(--green-color);
 }
 /* End Discover Cities */
+
+/* Content-top-header Our Packages */
+
+.content-bottom{
+
+}
+
+.content-bottom-img{
+
+}
+
+.content-bottom-content{
+
+}
+
+.content-bottom-content-name-place{
+
+}
+
+.content-bottom-content-loaction{
+
+}
+
+.content-bottom-content-vote{
+
+}
+
+.content-bottom-content-vote-left{
+
+}
+
+.content-bottom-content-voter-left-top{
+
+}
+
+.content-bottom-content-vote-left-bottom{
+
+}
+
+.content-bottom-content-vote-more{
+
+}
+
+.content-bottom-content-vote-more-hover{
+
+}
+
+.content-bottom-content-vote-right{
+
+}
+
+.content-bottom-content-vote-right-coin{
+
+}
+
+.content-bottom-content-place{
+
+}
+
+.content-bottom-content-link{
+
+}
+
+.content-bottom-content-sub-img{
+
+}
+
+.content-bottom-content-icon{
+
+}
+
+
+/* End Content-top-header Our Packages */
+
 
 
 /* End Container */

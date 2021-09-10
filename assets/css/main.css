@@ -886,7 +886,7 @@
 
 /* End The Best Beaches */
 
-/* Discover Cities */
+/* Discover */
 .content-slider-bottom-row{
     display: flex;
     margin-top: 80px;
@@ -944,7 +944,7 @@
 .content-slider-bottom:last-child .content-slider-bottom-link{
     color: var(--green-color);
 }
-/* End Discover Cities */
+/* End Discover */
 
 /* Content-top-header Our Packages */
 .content-bottom-img{
@@ -974,6 +974,13 @@
     letter-spacing: 0.1rem;
     padding-bottom: 20px;
     display: block;
+}
+
+.content-bottom-content-name-place:hover,
+.content-bottom-content-loaction:hover,
+.content-bottom-content-vote:hover,
+.content-bottom-content-sub-img:hover{
+    cursor: pointer;
 }
 
 .content-bottom-content-location i{

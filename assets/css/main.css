@@ -1016,9 +1016,12 @@
     top: 140%;
     background-color: #555555;
     left: 0;
-    padding: 4px 4px;
+    padding: 10px 12px;
     display: none;
     z-index: 3;
+    text-transform: none;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
 }
 
 .content-bottom-content-vote-more:hover .content-bottom-content-vote-more-hover{
@@ -1082,6 +1085,24 @@
 
 .content-bottom-content-icon{
     width: 2.6rem;
+}
+
+.content-bottom-content-vote-more-violet,
+.content-bottom-content-link-violet{
+    background-color: var(--violet-color);
+}
+
+.content-bottom-content-sub-img-violet{
+    background: linear-gradient(270deg , #da727d, #b56ed3);
+}
+
+.content-bottom-content-link-red,
+.content-bottom-content-vote-more-red{
+    background-color: var(--red-color);
+}
+
+.content-bottom-content-sub-img--red{
+    background: linear-gradient(90deg, #f86d77,#dd8463);
 }
 
 

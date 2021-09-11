@@ -1217,6 +1217,10 @@
     text-decoration: underline;
 }
 
+.footer-top-between-left-social:hover{
+    cursor: pointer;
+}
+
 .footer-top-between-left-social-icon + .footer-top-between-left-social-icon{
     margin-left: 20px;
 }

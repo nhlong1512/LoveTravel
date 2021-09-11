@@ -1127,5 +1127,63 @@
 
 /* Footer */
 
+.footer{
+    background: url(../imgs/parallax-7.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.footer-top-left-top{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #9a9a9a;
+}
+
+.footer-top-left-bottom{
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #555555;
+}
+
+.footer-top-right-input{
+    width: 255px;
+    height: 45px;
+    padding: 0 12px 0 24px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+    outline: none;
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.footer-top-right-btn{
+    height: 45px;
+    padding: 0 24px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: var(--blue-color);
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
+
+.footer-top-right-btn:hover{
+    cursor: pointer;
+}
+
+
 /* End Footer */
 

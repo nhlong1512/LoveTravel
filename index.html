@@ -1354,5 +1354,33 @@
             </div>
         </div>
         <!-- End Sub menu -->
+
+        <script>
+            const menuBtn = document.querySelector('.js-menu')
+            const subMenu = document.querySelector('.js-sub-menu')
+            const closeSubMenu = document.querySelector('.js-close')
+            const closeFull = document.querySelector('.js-main')
+            const closeTamo =document.querySelector('.js-tamo')
+            const closeTamoBtn = document.querySelector('.js-close-tamo')
+    
+            function showMenu(){
+                subMenu.classList.add('open')
+            }
+            function closeShowMenu(){
+                subMenu.classList.remove('open')
+            }
+            menuBtn.addEventListener('click',showMenu)
+            closeSubMenu.addEventListener('click',closeShowMenu)
+            
+            subMenu.addEventListener('click',closeShowMenu)
+            closeFull.addEventListener('click', function(event){
+                event.stopPropagation()
+            })
+            closeTamo.addEventListener('click', function(event){
+                event.stopPropagation()
+            })
+            closeTamoBtn.addEventListener('click',closeShowMenu)
+    
+        </script>
     </body>
     </html>

@@ -1357,8 +1357,8 @@
     z-index: -1;
 }
 
-.sub-menu-header__bottom-line-green::after{
-    background-color: var(--green-color);
+.sub-menu-header__bottom-line-orange::after{
+    background-color: #f3a46b;
 }
 
 .sub-menu-place{

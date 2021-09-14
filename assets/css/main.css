@@ -1317,6 +1317,10 @@
     right: 6px;
 }
 
+.close-main:hover{
+    cursor: pointer;
+}
+
 .close-main-icon{
     font-size: 2.5rem;
     color: #b9b9b9;
@@ -1390,12 +1394,20 @@
     margin-bottom: 10px;
 }
 
+.sub-menu-place-info-name:hover{
+    cursor: pointer;
+}
+
 .sub-menu-place-info-location{
     letter-spacing: 2px;
     font-size: 1.5rem;
     display: block;
     color: #bbbbb9;
     margin-bottom: 20px;
+}
+
+.sub-menu-place-info-location:hover{
+    cursor: pointer;
 }
 
 .sub-menu-place-info-location-icon{
@@ -1412,6 +1424,10 @@
     display: inline-block;
     letter-spacing: 2px;
     color: #fff;
+}
+
+.sub-menu-place-info-coin:hover{
+    cursor: pointer;
 }
 
 .sub-menu-place-info-coin-red{

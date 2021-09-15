@@ -62,31 +62,30 @@
         padding-right: 30px;
 
     }
-    .silder-face__search{
+    .slider-face__search{
         width: 100%;
     }
-    .silder-face__search-left{
+    .slider-face__search-left{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
-    .silder-face__search{
+    .slider-face__search{
     color: #a3a6a6;
 
     }
-    .silder-face__list{
+    .slider-face__list{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .silder-face__item{
+    .slider-face__item{
         /* flex: 1; */
         width: 100%;
         margin-bottom: 30px;
     }
     .content-top-ful{
         height: 100%;
-        
     }
     .content-top-places{
         text-align: center;
@@ -106,12 +105,12 @@
     .content-top-ful{
         margin-bottom: 28px;
     }
-    .content-silder-top-contains-right-link{
+    .content-slider-top-contains-right-link{
         display: block;
         left: 0px;
         margin-top: 30px;
     }
-    .content-silder-top-contains-left{
+    .content-slider-top-contains-left{
         align-self: flex-start;
         padding-left: 20px;
     }
@@ -177,24 +176,24 @@
         padding-right: 30px;
 
     }
-    .silder-face__search{
+    .slider-face__search{
         width: 100%;
     }
-    .silder-face__search-left{
+    .slider-face__search-left{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
-    .silder-face__search{
+    .slider-face__search{
     color: #a3a6a6;
 
     }
-    .silder-face__list{
+    .slider-face__list{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .silder-face__item{
+    .slider-face__item{
         /* flex: 1; */
         width: 100%;
         margin-bottom: 30px;
@@ -221,12 +220,12 @@
     .content-top-ful{
         margin-bottom: 28px;
     }
-    .content-silder-top-contains-right-link{
+    .content-slider-top-contains-right-link{
         display: block;
         left: 0px;
         margin-top: 30px;
     }
-    .content-silder-top-contains-left{
+    .content-slider-top-contains-left{
         align-self: flex-start;
         padding-left: 20px;
     }
@@ -429,7 +428,7 @@
     .footer-bottom span:nth-child(1){
         margin-bottom: 15px;
     }
-    .silder-face__sub-heading {
+    .slider-face__sub-heading {
     line-height: 1.2;
     }
     .content-between-contain-slider-imgs{

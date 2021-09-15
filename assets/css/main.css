@@ -184,7 +184,7 @@
 
 /* Slider */
 .slider{
-    height: 874px;
+    /* height: 874px; */
     background: url(../imgs/parallax-2.jpg) center/cover;
 }
 
